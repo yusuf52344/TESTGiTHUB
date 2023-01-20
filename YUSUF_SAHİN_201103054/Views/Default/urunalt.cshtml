@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Ürünler | YKA Elektrik";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content detay">
+    <div class="parallax-container">
+        <div class="parallax banner">
+            <img src="~/Content/images/banner1.png" alt="YKA Elektrik" />
+        </div>
+        <div class="detay-filter">
+            <div class="detay-baslik">
+                <h1>Aydınlatma</h1>
+            </div>
+        </div>
+        <div class="banner-category">
+            <ul>
+                <li><a href="@Url.Action("Index","Default")" title="YKA Elektrik">Anasayfa<i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+                <li><a href="@Url.Action("Urunler","Default")" title="Ürünler">Ürünler<i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+                <li><a href="/urun-alt.html" title="Aydınlatma">Aydınlatma<i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 m4 s12">
+                    <div class="left-menu">
+                        <ul class="left-menu">
+                            <li class="active">
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-list-title active open-dropdown-list-content">
+                                        <a href="#!" title="Ürünlerimiz">Ürünlerimiz</a>
+                                        <ul class="dropdown-list-content">
+
+                                            <li class=" "><a href="/urun-alt.html" title="Aydınlatma">Aydınlatma</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l9 m8 s12">
+                    <div class="row">
+                        <div class="col l4 m4 s12">
+                            <a class="products-img" title="YKA Elektrik" href="">
+                                <ul class="products-img-text">
+                                    <li><img src="~/Content/images/11.png" alt="YKA Elektrik"></li>
+                                    <li class="baslik-alt">LOREM IPSUM</li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
